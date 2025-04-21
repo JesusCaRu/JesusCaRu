@@ -16,8 +16,8 @@ Desarrollador apasionado y creativo enfocado en crear soluciones innovadoras. Me
 ## 📊 Estadísticas de GitHub
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JesusCaRu&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JesusCaRu&layout=compact&langs_count=7&theme=radical"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=JesusCaRu&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=JesusCaRu&layout=compact&langs_count=7&theme=radical"/>
 </div>
 
 ## 🔥 Racha de contribuciones
@@ -28,7 +28,7 @@ Desarrollador apasionado y creativo enfocado en crear soluciones innovadoras. Me
 
 ## 📈 Actividad
 
-![Gráfico de contribuciones](https://activity-graph.herokuapp.com/graph?username=JesusCaRu&theme=react-dark)
+![Gráfico de contribuciones](https://github-readme-activity-graph.vercel.app/graph?username=JesusCaRu&theme=react-dark)
 
 ## 💻 Tecnologías y herramientas
 
@@ -59,7 +59,7 @@ Desarrollador apasionado y creativo enfocado en crear soluciones innovadoras. Me
   <a href="https://github.com/JesusCaRu" target="_blank">
     <img src="https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub" style="margin-bottom: 5px;" />
   </a>
-  <a href="https://linkedin.com/in/tu-linkedin" target="_blank">
+  <a href="https://linkedin.com/in/jesus-canicio-rubi" target="_blank">
     <img src="https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="margin-bottom: 5px;" />
   </a>
 </div>
