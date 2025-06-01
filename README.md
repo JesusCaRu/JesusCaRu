@@ -101,7 +101,7 @@ Desarrollador apasionado y creativo enfocado en crear soluciones innovadoras. Me
 ### 📫 Contacto
 
 <div align="center">
-  <a href="mailto:tu.email@example.com">
+  <a href="mailto:jesuscanicio33@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
   </a>
 </div>
