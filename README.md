@@ -93,7 +93,7 @@ const jesús = {
 
 <div align="center">
 
-[![StockFlow_Gestor_de_inventario](https://github-readme-stats.vercel.app/api/pin/?username=JesusCaRu&repo=ProyectoFinal&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario.git)
+[![StockFlow_Gestor_de_inventario](https://github-readme-stats.vercel.app/api/pin/?username=JesusCaRu&repo=ProyectoFinal&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)]([https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario.git](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario))
 
 </div>
 
