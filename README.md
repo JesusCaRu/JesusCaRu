@@ -5,7 +5,7 @@
 
 <!-- Badges de redes sociales -->
 [![GitHub](https://img.shields.io/badge/GitHub-JesusCaRu-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JesusCaRu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jesús%20Canicio-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jesus-canicio-rubi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jesús%20Canicio-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/jesus-canicio-rubi](https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/))
 [![Gmail](https://img.shields.io/badge/Gmail-jesuscanicio33@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jesuscanicio33@gmail.com)
 [![Profile Views](https://komarev.com/ghpvc/?username=JesusCaRu&style=for-the-badge&color=blueviolet&label=VISITAS)](https://github.com/JesusCaRu)
 
@@ -93,7 +93,7 @@ const jesús = {
 
 <div align="center">
 
-[![ProyectoFinal](https://github-readme-stats.vercel.app/api/pin/?username=JesusCaRu&repo=ProyectoFinal&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/JesusCaRu/ProyectoFinal)
+[![StockFlow_Gestor_de_inventario](https://github-readme-stats.vercel.app/api/pin/?username=JesusCaRu&repo=ProyectoFinal&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF)](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario.git)
 
 </div>
 
