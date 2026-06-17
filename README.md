@@ -17,7 +17,7 @@
 
 ```typescript
 const jesús = {
-  nombre:       "Jesús Canicio Rubí",
+  nombre:       "Jesús Canicio Ruiz",
   rol:          "Desarrollador Full Stack",
   ubicación:    "España 🇪🇸",
   pasiones:     ["clean code", "nuevas tecnologías", "código abierto"],
