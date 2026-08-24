@@ -79,19 +79,6 @@ const jesus: FullStackDeveloper = {
 - ⚙️ **Backend:** Creación de APIs RESTful de alto rendimiento con FastAPI y Node.js, autenticación robusta y diseño de bases de datos relacionales y no relacionales.
 - 💡 **Buenas Prácticas:** Clean Architecture, modularidad, tipado estricto con TypeScript y optimización de rendimiento.
 
----
-
-<!-- ================= GITHUB TROPHIES ================= -->
-<div align="center">
-
-### 🏆 Trofeos & Logros de GitHub
-
-<a href="https://github.com/JesusCaRu">
-  <img src="https://github-profile-trophy.vercel.app/?username=JesusCaRu&theme=tokyonight&no-bg=true&no-frame=true&margin-w=10&margin-h=10&row=1&column=7" alt="GitHub Trophies" />
-</a>
-
-</div>
-
 <br/>
 
 ---
@@ -235,25 +222,19 @@ const jesus: FullStackDeveloper = {
 
 <div align="center">
 
-  <table border="0" style="border-collapse: collapse;">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=JesusCaRu&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=C9D1D9&count_private=true&include_all_commits=true" height="175" alt="GitHub Stats" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JesusCaRu&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9" height="175" alt="Top Languages" />
-      </td>
-    </tr>
-  </table>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JesusCaRu&theme=tokyonight" alt="GitHub Profile Details"/>
+  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JesusCaRu&theme=tokyonight" alt="Repos Per Language"/>
 
-  <br/>
+  <br/><br/>
 
-  <img src="https://streak-stats.demolab.com/?user=JesusCaRu&theme=tokyonight&hide_border=true&background=0D1117&ring=58A6FF&fire=FF7B72&currStreakLabel=58A6FF" alt="GitHub Streak" />
+  <a href="https://github.com/JesusCaRu">
+    <img src="https://streak-stats.demolab.com/?user=JesusCaRu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  </a>
 
   <br/><br/>
 
   <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JesusCaRu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF7B72" width="95%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JesusCaRu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF7B72" width="98%" alt="Activity Graph" />
 
 </div>
 
