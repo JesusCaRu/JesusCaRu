@@ -222,14 +222,13 @@ const jesus: FullStackDeveloper = {
 
 <div align="center">
 
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JesusCaRu&theme=tokyonight" alt="GitHub Profile Details"/>
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JesusCaRu&theme=tokyonight" alt="Repos Per Language"/>
+  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JesusCaRu&theme=tokyonight" alt="GitHub Profile Details"/>
+  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JesusCaRu&theme=tokyonight" alt="Repos Per Language"/>
 
   <br/><br/>
 
-  <a href="https://github.com/JesusCaRu">
-    <img src="https://streak-stats.demolab.com/?user=JesusCaRu&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-  </a>
+  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JesusCaRu&theme=tokyonight" alt="GitHub Stats"/>
+  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JesusCaRu&theme=tokyonight" alt="Most Commit Language"/>
 
   <br/><br/>
 
