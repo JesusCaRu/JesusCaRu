@@ -1,6 +1,6 @@
 ---
 name: Jesús Canicio Ruiz — GitHub profile
-description: Architectural clarity for a Full Stack developer’s GitHub profile.
+description: A graphic Full Stack portfolio built from outlined type, real project evidence and connected diagrams.
 colors:
   deep-green: "#15221d"
   warm-paper: "#f3f4ec"
@@ -10,149 +10,160 @@ colors:
   light-accent: "#32611e"
   dark-panel: "#253a2e"
   light-panel: "#e0e8d8"
+  stockflow-accent: "#8bb9ff"
+  stockflow-ground: "#15243d"
+  ats-accent: "#ffc28c"
+  ats-ground: "#34251e"
+  booking-accent: "#d6b6ff"
+  booking-ground: "#2b233d"
+  tiktok-accent: "#ff96c9"
+  tiktok-ground: "#341e30"
+  cover-copy: "#e3e8e1"
+  screen-frame: "#0d1117"
+  screen-control: "#6d7e76"
+  atlas-dark-panel: "#20332a"
+  ats-panel: "#4b3529"
+  booking-panel: "#3b2f54"
+  document-emphasis: "#aa6332"
+  document-line: "#bac0b5"
 typography:
-  display-desktop:
-    fontFamily: "Manrope"
-    fontSize: "90px"
-    fontWeight: 800
-  display-mobile:
-    fontFamily: "Manrope"
-    fontSize: "82px"
-    fontWeight: 800
-  role-desktop:
-    fontFamily: "Manrope"
-    fontSize: "34px"
-    fontWeight: 600
-  role-mobile:
-    fontFamily: "Manrope"
-    fontSize: "32px"
-    fontWeight: 600
-  statement-desktop:
-    fontFamily: "Manrope"
-    fontSize: "28px"
-    fontWeight: 600
-  statement-mobile:
-    fontFamily: "Manrope"
-    fontSize: "34px"
-    fontWeight: 600
-  diagram-label:
-    fontFamily: "Manrope"
-    fontSize: "26px"
-    fontWeight: 600
-  caption-desktop:
-    fontFamily: "Manrope"
-    fontSize: "22px"
-    fontWeight: 400
-  caption-mobile:
-    fontFamily: "Manrope"
-    fontSize: "23px"
-    fontWeight: 400
+  display-desktop: { fontFamily: "Manrope", fontSize: "90px", fontWeight: 800 }
+  display-mobile: { fontFamily: "Manrope", fontSize: "82px", fontWeight: 800 }
+  role-desktop: { fontFamily: "Manrope", fontSize: "34px", fontWeight: 600 }
+  role-mobile: { fontFamily: "Manrope", fontSize: "32px", fontWeight: 600 }
+  statement-desktop: { fontFamily: "Manrope", fontSize: "28px", fontWeight: 600 }
+  statement-mobile: { fontFamily: "Manrope", fontSize: "34px", fontWeight: 600 }
+  diagram-label: { fontFamily: "Manrope", fontSize: "26px", fontWeight: 600 }
+  caption-desktop: { fontFamily: "Manrope", fontSize: "22px", fontWeight: 400 }
+  caption-mobile: { fontFamily: "Manrope", fontSize: "23px", fontWeight: 400 }
+  project-title-desktop: { fontFamily: "Manrope", fontSize: "68px", fontWeight: 800 }
+  project-title-mobile: { fontFamily: "Manrope", fontSize: "64px", fontWeight: 800 }
+  project-subtitle-desktop: { fontFamily: "Manrope", fontSize: "29px", fontWeight: 600 }
+  project-subtitle-mobile: { fontFamily: "Manrope", fontSize: "30px", fontWeight: 600 }
+  project-copy: { fontFamily: "Manrope", fontSize: "25px", fontWeight: 400 }
+  project-stack-desktop: { fontFamily: "Manrope", fontSize: "24px", fontWeight: 600 }
+  project-stack-mobile: { fontFamily: "Manrope", fontSize: "27px", fontWeight: 600 }
+  atlas-heading-desktop: { fontFamily: "Manrope", fontSize: "30px", fontWeight: 700 }
+  atlas-heading-mobile: { fontFamily: "Manrope", fontSize: "32px", fontWeight: 700 }
+  atlas-label-desktop: { fontFamily: "Manrope", fontSize: "22px", fontWeight: 600 }
+  atlas-label-mobile: { fontFamily: "Manrope", fontSize: "23px", fontWeight: 600 }
+  contact-link: { fontFamily: "Manrope", fontSize: "35px", fontWeight: 800 }
+  closing-desktop: { fontFamily: "Manrope", fontSize: "70px", fontWeight: 800 }
+  closing-mobile: { fontFamily: "Manrope", fontSize: "64px", fontWeight: 800 }
+  closing-support: { fontFamily: "Manrope", fontSize: "31px", fontWeight: 600 }
 rounded:
   square: "0px"
+  document: "8px"
+  frame: "12px"
+  screen-clip: "4px"
+  document-line: "3px"
 spacing:
-  desktop-inset: "64px"
-  mobile-inset: "44px"
+  header-desktop-inset: "64px"
+  header-mobile-inset: "44px"
+  project-desktop-inset: "56px"
+  project-mobile-inset: "40px"
+  atlas-inset: "32px"
   layer-inset: "28px"
-  layer-gap: "33px"
 components:
-  layer-dark:
-    backgroundColor: "{colors.dark-panel}"
-    textColor: "{colors.warm-paper}"
-    typography: "{typography.diagram-label}"
-    rounded: "{rounded.square}"
-    width: "299px"
-    height: "60px"
-  layer-light:
-    backgroundColor: "{colors.light-panel}"
-    textColor: "{colors.deep-green}"
-    typography: "{typography.diagram-label}"
-    rounded: "{rounded.square}"
-    width: "299px"
-    height: "60px"
+  layer-dark: { backgroundColor: "{colors.dark-panel}", textColor: "{colors.warm-paper}", typography: "{typography.diagram-label}", rounded: "{rounded.square}", width: "299px", height: "60px" }
+  layer-light: { backgroundColor: "{colors.light-panel}", textColor: "{colors.deep-green}", typography: "{typography.diagram-label}", rounded: "{rounded.square}", width: "299px", height: "60px" }
+  cover-stockflow: { backgroundColor: "{colors.stockflow-ground}", textColor: "{colors.stockflow-accent}", rounded: "{rounded.square}" }
+  cover-ats: { backgroundColor: "{colors.ats-ground}", textColor: "{colors.ats-accent}", rounded: "{rounded.square}" }
+  cover-booking: { backgroundColor: "{colors.booking-ground}", textColor: "{colors.booking-accent}", rounded: "{rounded.square}" }
+  cover-tiktok: { backgroundColor: "{colors.tiktok-ground}", textColor: "{colors.tiktok-accent}", rounded: "{rounded.square}" }
+  screenshot-frame: { backgroundColor: "{colors.screen-frame}", rounded: "{rounded.frame}" }
+  atlas-dark: { backgroundColor: "{colors.atlas-dark-panel}", textColor: "{colors.warm-paper}", rounded: "{rounded.frame}" }
+  atlas-light: { backgroundColor: "{colors.light-panel}", textColor: "{colors.deep-green}", rounded: "{rounded.frame}" }
+  contact-link: { backgroundColor: "{colors.dark-accent}", textColor: "{colors.deep-green}", typography: "{typography.contact-link}", rounded: "{rounded.frame}", width: "400px", height: "112px" }
 ---
 
 # Design System: Jesús Canicio Ruiz — GitHub profile
 
 ## Overview
 
-**Creative North Star: "Architectural section drawing"**
+**Creative North Star: "Architectural section drawing, amplified"**
 
-A single editorial masthead makes the connection between interface, API and data visible. Substantial lettering, green ink, warm paper and registered vector geometry establish a calm, precise identity; factual native Markdown carries the rest of the profile.
+A graphic portfolio connects interface, API and data through substantial outlined lettering, project-specific color fields, real screenshots and explanatory diagrams. The green architectural identity now extends across project covers, a technology atlas and contact artwork, reflecting the explicit request for a highly graphical whole profile.
 
-This system governs the repository-owned SVG masthead. GitHub owns body typography, surrounding colors, content measure, link states and keyboard focus. Source of truth: `scripts/build-assets.mjs`, the four `assets/header-*.svg` files and `README.md`.
+Repository-owned artwork establishes the visual system. GitHub owns surrounding body typography, content measure, native links and keyboard focus. The authoritative implementation is `scripts/build-assets.mjs` plus `scripts/build-graphic-assets.mjs`; `README.md` composes the assets and native text.
 
 **Key Characteristics:**
-- Outlined Manrope identity lettering.
-- Square layers connected by selective green accents.
-- Theme-aware, separately composed desktop and mobile vectors.
-- Static artwork with native textual links and disclosure.
+- Outlined Manrope across the complete graphic identity.
+- Four distinct project palettes tied to real work.
+- Real screenshots clearly separated from capability diagrams.
+- Responsive graphic compositions with native textual fallbacks.
+- Static SVG artwork and visible contribution activity.
 
 ## Colors
 
-Warm paper and deep green exchange ground and ink roles across themes; restrained panels and contrast-adjusted connectors preserve the hierarchy.
-
 ### Primary
 
-- **Lime connector** (`dark-accent`): structural brackets, connecting lines and layer nodes on the dark ground.
-- **Forest connector** (`light-accent`): the same geometry adapted to the light ground.
+Deep green, warm paper and lime form the shared identity. The header exchanges ground and ink between themes; its light connector becomes forest green for contrast. Contact artwork keeps lime ground and deep-green lettering in both themes.
+
+### Secondary
+
+StockFlow uses blue on navy; ATS uses apricot on brown; Booking uses lavender on purple; TikTok uses pink on plum. Each project retains its own dark ground on both light and dark GitHub. Technology groups reuse blue, lime, lavender and apricot in dark mode; all light-mode technology icons use forest green.
 
 ### Neutral
 
-- **Deep green / warm paper:** dark ground and light-theme ink / light ground and dark-theme ink.
-- **Muted greens:** theme-specific role, caption and divider colors.
-- **Panel greens:** flat fields behind the three diagram labels.
+Muted greens carry header support and dividers. Panel greens group architectural layers and technology families. Shared light cover copy, dark screenshot chrome and muted chrome controls support project evidence. ATS and Booking have their own diagram panels; warm-paper documents use muted and emphasized horizontal marks.
 
-**The Contrast Pair Rule.** Preserve each theme’s complete ground, ink, muted, accent and panel assignment when regenerating artwork.
+**The Project Pair Rule.** Keep each project accent with its shipped ground, including on light GitHub; theme switching applies to the header and technology atlas rather than recoloring the project covers.
 
 ## Typography
 
-**Display Font:** Manrope, generated as SVG paths rather than live text or a browser font dependency. The frontmatter records the actual size and weight supplied to the outline generator. Sizes and spacing are SVG design units and scale with the artwork; no CSS line-height or letter-spacing is assigned.
+Manrope weights 400, 600, 700 and 800 are converted to paths at build time. The frontmatter records actual generator roles in SVG design units; artwork scales as a whole. There is no browser font dependency, custom page type ramp, letter-spacing or CSS line-height.
 
-The name uses the display roles, the occupation uses the role roles, and the promise uses the statement roles. Diagram labels are semibold; captions are regular. Mobile has its own hierarchy rather than a uniformly reduced desktop composition. Native README headings, paragraphs and links retain GitHub typography.
+The largest name establishes identity; bold project names and closing copy carry the graphic narrative. Semibold accent subtitles and stacks separate meaning from regular explanatory copy. Atlas headings and labelled logos remain distinct from GitHub-native text.
 
-**The Outline Boundary Rule.** Keep custom identity typography inside generated SVG; maintain equivalent readable identity and role information in image alternatives and README prose.
+**The Outline Boundary Rule.** Keep custom identity typography inside generated SVG; preserve meaningful image alternatives and native textual routes to projects and contact.
 
 ## Layout
 
-Desktop artwork uses a 1280 × 430 viewBox: name and role at left, three connected layers at right, with a divider and promise below. Layer rectangles begin at y=92, 185 and 278; their label inset and intervening gap are recorded above.
+The header is 1280 × 430 on desktop and 720 × 540 on mobile. Its connected desktop diagram gives way to a simpler mobile name-and-promise composition. Project covers are 1280 × 560 or 720 × 820: desktop places copy left and evidence right; mobile stacks the title, subtitle, evidence and technology line and omits the desktop explanatory copy.
 
-At a viewport width of 600px or less, `<picture>` selects a separately composed 720 × 540 mobile SVG. It keeps the two-line name and occupation, splits the promise into two lines, adds a short technology caption and replaces the diagram with a small connector motif. Artwork fills the available README width. Theme selection uses `prefers-color-scheme`; the default image is the light desktop variant.
+The atlas is 1280 × 660 with a two-column, two-row group arrangement, or 720 × 1170 with four stacked groups. Each group has four labelled logos. Contact link artwork is 400 × 112, displayed at 190 CSS pixels wide in centered native links. The closing banner is 1280 × 240 or 720 × 320. Header, covers, atlas and closing banner use separately authored mobile assets at viewport widths up to 600px. Header and atlas also respond to `prefers-color-scheme`.
 
-The body follows native document flow: introduction and contact links, named projects, capabilities, contact, then optional activity. No page grid, fixed card widths or custom page breakpoint is imposed.
+The README orders identity/contact, brief introduction, four visual projects, technology atlas, visible contribution graphic and closing contact. Experience and detailed technology text use a native disclosure. Full-width images follow the available GitHub content column; the repository imposes no custom page grid.
 
 ## Elevation & Depth
 
-Flat vector fills establish grouping. Panels, alignment and connecting strokes communicate structure without shadows, gradients or simulated material. The masthead has no animation or interactive state.
+Flat fills, panel nesting, arrows and connectors create structure without shadows, gradients or animation. Project covers use two low-opacity circular outlines cropped by the outer frame; they never mask content. Screenshot chrome identifies a real project view rather than imitating depth.
 
 ## Shapes
 
-Square panel corners, orthogonal brackets and straight connectors define the silhouette. Desktop structural strokes are 3 SVG units; layer nodes have radius 5. Mobile connector strokes are 7 units. The horizontal divider uses the theme’s muted color at 0.35 opacity. These are artwork geometry, not page borders or focus indicators.
+The header and full-bleed artwork retain square outer geometry. Rounded screenshot frames and atlas groups use the frame radius; document and API panels use the document radius. Small screen clipping and document-line rounding are separate roles. Desktop header connectors use 3-unit strokes and 12-unit-radius layer nodes; mobile connectors use 7-unit strokes. Project orbit strokes are 2 units at 0.16 opacity. Diagram connectors have round line caps and joins.
 
 ## Components
 
-### Responsive masthead
+### Header and project covers
 
-Four versioned SVGs provide desktop/mobile and light/dark variants. Lettering, accessible SVG title/description and geometry are generated together; the README image also carries meaningful alternative text. Rebuild variants through the generator and retain `assets/Manrope-OFL.txt`.
+All lettering is generated with the shared outline helper. StockFlow and TikTok embed real repository screenshot bytes; source rasters retain embedded Origin metadata. Their screen frames have a project-view label and demonstration-data caption. ATS uses a document-to-offer analysis diagram; Booking uses an endpoint-to-framework/database diagram. These diagrams explain capabilities and are not application screenshots.
 
-### Connected layer diagram
+### Technology atlas
 
-Three equal square-cornered panels labelled Interfaz, API and Datos share one vertical connector and paired brackets. Accent nodes mark each layer. The sidecar previews this actual static artwork in both themes; it does not introduce interactive cards.
+Sixteen Simple Icons paths are grouped into four labelled families. Preserve the bundled Simple Icons license and Manrope OFL alongside the graphics. The atlas has distinct light/dark and desktop/mobile variants.
 
-### Native links and activity disclosure
+### Contact links and closing artwork
 
-Project and contact actions are explicit Markdown links. Activity uses native `<details>` / `<summary>` and a theme-aware contribution SVG. GitHub supplies hover, focus, open-state behavior and body styling; this repository defines no custom button, input or navigation component.
+Three SVG image links provide portfolio, LinkedIn and email actions with deep-green symbols, outlined labels and arrows on lime. The closing banner is also an email link. These are native anchors containing static artwork, not custom HTML buttons; GitHub supplies hover, focus and activation behavior.
+
+### Native text, disclosure and activity
+
+Projects retain explicit code links; final contact retains email and profile links. Experience and formation remain available inside native `<details>`. The contribution SVG is visible in its own section, has light/dark variants, and links to its update workflow.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** regenerate all four mastheads together and preserve their theme pairings.
-- **Do** retain the separate mobile composition and informative image alternatives.
-- **Do** keep project evidence and contact routes available as native text links.
-- **Do** keep artwork flat, static and structurally connected.
+- **Do** regenerate the full graphic family from the two asset scripts.
+- **Do** preserve project palette pairs and separately authored mobile compositions.
+- **Do** distinguish original screenshots from explanatory diagrams and retain raster provenance.
+- **Do** preserve image alternatives, textual project/contact links and asset licenses.
 
 ### Don't:
 
-- **Don't** document GitHub-owned body CSS or interaction states as repository-controlled tokens.
-- **Don't** replace outlined display lettering with a system-font approximation.
-- **Don't** introduce raster dependencies or animation into this static vector identity.
+- **Don't** document GitHub-owned body styling or focus states as repository-controlled tokens.
+- **Don't** substitute generated mock screenshots for the real project evidence.
+- **Don't** replace outlined identity lettering with browser-dependent font approximations.
+- **Don't** apply light-theme recoloring to the intentionally dark project covers.
