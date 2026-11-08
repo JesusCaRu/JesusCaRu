@@ -2,7 +2,7 @@ name: Check profile
 
 on:
   push:
-    branches: [main, codex/profile-redesign]
+    branches: [main, 'codex/profile-redesign-*']
     paths:
       - README.md
       - assets/**
