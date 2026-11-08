@@ -23,4 +23,8 @@ for (const name of fs.readdirSync(path.join(root, 'assets')).filter(name => name
 assert(readme.includes('mailto:jesuscanicio33@gmail.com'), 'Missing email contact');
 assert(readme.includes('## Proyectos seleccionados'), 'Missing project section');
 assert(readme.includes('## Con qué trabajo'), 'Missing technical stack');
+for (const name of ['profile-green.svg', 'profile-night-green.svg']) {
+  const graph = fs.readFileSync(path.join(root, 'profile-3d-contrib', name), 'utf8');
+  assert(!/<(?:animate|animateTransform|animateMotion|set)\b/.test(graph), `${name} must be complete on its first frame`);
+}
 console.log('Profile checks passed: local assets, supported markup, accessible images and essential content.');

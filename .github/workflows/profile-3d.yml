@@ -28,7 +28,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          
+
+      - name: Show contribution graphics completely from the first frame
+        run: node scripts/static-contributions.mjs
+
       - name: Commit & Push
         shell: bash
         run: |

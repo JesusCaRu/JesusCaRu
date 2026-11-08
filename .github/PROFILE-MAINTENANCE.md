@@ -21,6 +21,8 @@ La sección desplegable usa gráficos ya versionados. `.github/workflows/profile
 
 El workflow solo incluye `profile-3d-contrib/` en su commit, termina correctamente si no hay cambios y hace rebase antes de subir para convivir con ediciones del README. Las imágenes anteriores siguen disponibles si una ejecución falla.
 
+Después de generar los gráficos, `scripts/static-contributions.mjs` elimina las animaciones de entrada de opacidad de las dos variantes que muestra el README. Así, las barras, la leyenda y el donut aparecen completos desde el primer instante, también con movimiento reducido. Las variantes de archivo que el perfil no utiliza permanecen intactas.
+
 ## Verificación
 
 `Check profile` comprueba los recursos locales, los textos alternativos, la compatibilidad del marcado y que el SVG coincida con el generador. Verificar además el README en GitHub en escritorio y móvil, con preferencias de color claras y oscuras. GitHub controla el estilo del texto y la selección final de imágenes; no admite una hoja CSS propia en el README.
