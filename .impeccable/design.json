@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-08T12:46:52.3103996Z",
+  "generatedAt": "2026-11-08T13:00:09.3177207Z",
   "title": "Design System: Jesús Canicio Ruiz — GitHub profile",
   "extensions": {
     "colorMeta": {
@@ -506,7 +506,7 @@
       "Four distinct project palettes tied to real work.",
       "Real screenshots clearly separated from capability diagrams.",
       "Responsive graphic compositions with native textual fallbacks.",
-      "Static SVG artwork and visible contribution activity."
+      "Static SVG artwork and contribution graphics shown completely from the first frame."
     ],
     "rules": [
       {

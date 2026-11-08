@@ -92,7 +92,7 @@ Repository-owned artwork establishes the visual system. GitHub owns surrounding 
 - Four distinct project palettes tied to real work.
 - Real screenshots clearly separated from capability diagrams.
 - Responsive graphic compositions with native textual fallbacks.
-- Static SVG artwork and visible contribution activity.
+- Static SVG artwork and contribution graphics shown completely from the first frame.
 
 ## Colors
 
@@ -151,6 +151,8 @@ Three SVG image links provide portfolio, LinkedIn and email actions with deep-gr
 ### Native text, disclosure and activity
 
 Projects retain explicit code links; final contact retains email and profile links. Experience and formation remain available inside native `<details>`. The contribution SVG is visible in its own section, has light/dark variants, and links to its update workflow.
+
+After generation, the update workflow runs `scripts/static-contributions.mjs` on both displayed contribution variants. It removes known SMIL entry tracks while preserving final geometry, so bars, donut and legend appear immediately and remain static; unexpected or residual animation fails the step.
 
 ## Do's and Don'ts
 
