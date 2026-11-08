@@ -1,32 +1,44 @@
-name: GitHub-Profile-3D-Contrib
+name: GitHub Profile 3D
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
+  schedule:
+    - cron: "17 18 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
-  actions: read
+
+concurrency:
+  group: profile-3d-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.repository == 'JesusCaRu/JesusCaRu' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+          fetch-depth: 0
           
-      - uses: yoshi389111/github-profile-3d-contrib@0.7.1
+      - uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           
       - name: Commit & Push
+        shell: bash
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- profile-3d-contrib/
+          if git diff --cached --quiet; then
+            echo "Contribution graphics are already up to date."
+            exit 0
+          fi
+          git commit -m "chore: refresh contribution graphics"
+          git pull --rebase origin main
+          git push origin HEAD:main

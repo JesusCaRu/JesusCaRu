@@ -1,0 +1,38 @@
+name: Check profile
+
+on:
+  push:
+    branches: [main, codex/profile-redesign]
+    paths:
+      - README.md
+      - assets/**
+      - scripts/**
+      - package*.json
+      - .github/workflows/check-profile.yml
+  pull_request:
+    paths:
+      - README.md
+      - assets/**
+      - scripts/**
+      - package*.json
+      - .github/workflows/check-profile.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm run build:assets
+      - run: npm run check
+      - name: Check committed assets match their source
+        run: git diff --exit-code -- assets/

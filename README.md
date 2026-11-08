@@ -1,314 +1,71 @@
-<a name="top"></a>
-
-<div align="center">
-
-  <!-- ================= HEADER BANNER ================= -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,25,30&height=220&section=header&text=Jesús%20Canicio%20Ruiz&fontSize=48&fontColor=ffffff&animation=fadeIn&subtext=Desarrollador%20Full%20Stack&subfontSize=22&subfontColor=58a6ff" width="100%" alt="Header Banner"/>
-
-  <br/>
-
-  <!-- ================= TYPING SVG ================= -->
-  <a href="https://github.com/JesusCaRu">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&repeat=true&width=680&height=48&lines=%E2%9A%A1+Desarrollador+Full+Stack;%F0%9F%9A%80+React+19+%E2%80%A2+Next.js+%E2%80%A2+TypeScript+%E2%80%A2+TailwindCSS;%E2%9A%99%EF%B8%8F+FastAPI+%E2%80%A2+Node.js+%E2%80%A2+Python+%E2%80%A2+PostgreSQL;%E2%9C%A8+Construyendo+experiencias+web+modernas+y+escalables;%F0%9F%92%A1+Clean+Code+%E2%80%A2+Arquitectura+S%C3%B3lida+%E2%80%A2+Open+Source" alt="Typing SVG" />
-  </a>
-
-  <br/><br/>
-
-  <!-- ================= SOCIAL & STATS BADGES ================= -->
-  <a href="https://github.com/JesusCaRu">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  &nbsp;
-  <a href="mailto:jesuscanicio33@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  &nbsp;
-  <a href="https://github.com/JesusCaRu">
-    <img src="https://komarev.com/ghpvc/?username=JesusCaRu&style=for-the-badge&color=58a6ff&label=VISITAS%20PERFIL" alt="Profile Views"/>
-  </a>
-
-  <br/><br/>
-
-  <!-- ================= STATUS PILLS ================= -->
-  <img src="https://img.shields.io/badge/📍_Ubicación-España_🇪🇸-0D1117?style=flat-square&logoColor=58a6ff" alt="Location" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/💼_Estado-Disponible_para_Proyectos-0D1117?style=flat-square&logoColor=3fb950" alt="Status" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/⚡_Rol-Full_Stack_Developer-0D1117?style=flat-square&logoColor=58a6ff" alt="Role" />
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= TERMINAL / ABOUT ME ================= -->
-### 💻 `jesus@developer:~$ whoami`
-
-```typescript
-interface FullStackDeveloper {
-  nombre: string;
-  especialidad: string;
-  ubicacion: string;
-  stackFrontend: string[];
-  stackBackend: string[];
-  basesDeDatos: string[];
-  devOpsYHerramientas: string[];
-  filosofia: string;
-}
-
-const jesus: FullStackDeveloper = {
-  nombre: "Jesús Canicio Ruiz",
-  especialidad: "Desarrollo Web Full Stack (End-to-End)",
-  ubicacion: "España 🇪🇸",
-  stackFrontend: ["React 19", "Next.js", "TypeScript", "Tailwind CSS", "JavaScript ES6+"],
-  stackBackend: ["FastAPI", "Python", "Node.js", "Express", "Laravel", "REST APIs"],
-  basesDeDatos: ["PostgreSQL", "MongoDB", "MySQL", "Redis"],
-  devOpsYHerramientas: ["Docker", "Git", "GitHub Actions", "Linux", "VS Code"],
-  filosofia: "Transformar ideas complejas en código limpio, escalable y productos visualmente impecables."
-};
-```
-
-#### ⚡ Puntos Destacados
-- 🔭 **Enfocado en:** Desarrollar aplicaciones web completas, combinando interfaces de usuario dinámicas con backends rápidos y seguros.
-- 🎨 **Frontend:** Dominio de React 19, componentes reactivos, diseño moderno con Tailwind CSS y gestión de estado escalable.
-- ⚙️ **Backend:** Creación de APIs RESTful de alto rendimiento con FastAPI y Node.js, autenticación robusta y diseño de bases de datos relacionales y no relacionales.
-- 💡 **Buenas Prácticas:** Clean Architecture, modularidad, tipado estricto con TypeScript y optimización de rendimiento.
-
-<br/>
-
----
-
-<!-- ================= TECH STACK MATRIX ================= -->
-### 🛠️ Stack Tecnológico & Herramientas
-
-<div align="center">
-
-  <!-- Interactive Skill Icons Grid -->
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,redux,nodejs,express,fastapi,python,laravel,postgres,mongodb,mysql,docker,git,github,vscode,linux,postman,figma&perline=12" alt="Skill Icons Matrix" />
-  </a>
-
-</div>
-
-<br/>
-
-<table align="center" width="100%">
-  <thead>
-    <tr>
-      <th width="25%" align="center">🎨 Frontend & UI/UX</th>
-      <th width="25%" align="center">⚙️ Backend & APIs</th>
-      <th width="25%" align="center">🗄️ Bases de Datos</th>
-      <th width="25%" align="center">🛠️ DevOps & Herramientas</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top" align="center">
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" /><br/>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /><br/>
-        <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/HTML5_%26_CSS3-E34F26?style=flat-square&logo=html5&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Zustand_%2F_Redux-764ABC?style=flat-square&logo=redux&logoColor=white" />
-      </td>
-      <td valign="top" align="center">
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Python_3-3776AB?style=flat-square&logo=python&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/RESTful_APIs-005571?style=flat-square&logo=postman&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/JWT_Auth-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
-      </td>
-      <td valign="top" align="center">
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-      </td>
-      <td valign="top" align="center">
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Git_%26_GitHub-F05032?style=flat-square&logo=git&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" /><br/>
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" /><br/>
-        <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
----
-
-<!-- ================= FEATURED PROJECTS ================= -->
-### 🚀 Proyectos Destacados
-
-<div align="center">
-
-<table>
-  <tr>
-    <td width="33.3%" valign="top">
-      <div align="center">
-        <h3>🤖 ATS Resume Optimizer</h3>
-        <a href="https://github.com/JesusCaRu/ats-resume-optimizer-ai">
-          <img src="https://img.shields.io/badge/Ver_Repositorio-58A6FF?style=for-the-badge&logo=github&logoColor=white" width="100%" alt="ATS Resume Optimizer Repo"/>
-        </a>
-      </div>
-      <p align="justify">
-        Plataforma web Full Stack para optimización inteligente de currículums frente a sistemas ATS. Análisis de compatibilidad semántica en tiempo real y sugerencias automáticas de mejora.
-      </p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-      </div>
-    </td>
-    <td width="33.3%" valign="top">
-      <div align="center">
-        <h3>📊 TikTok Wrapper</h3>
-        <a href="https://github.com/JesusCaRu/Tiktok-Wrapper">
-          <img src="https://img.shields.io/badge/Ver_Repositorio-FF0050?style=for-the-badge&logo=tiktok&logoColor=white" width="100%" alt="TikTok Wrapper Repo"/>
-        </a>
-      </div>
-      <p align="justify">
-        Aplicación web interactiva estilo <i>Spotify-Wrapped</i> para procesar datos GDPR de TikTok, visualizando hábitos de uso, métricas clave y generando tarjetas exportables en PNG de alta resolución.
-      </p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-      </div>
-    </td>
-    <td width="33.3%" valign="top">
-      <div align="center">
-        <h3>📦 StockFlow Inventory</h3>
-        <a href="https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario">
-          <img src="https://img.shields.io/badge/Ver_Repositorio-2EA44F?style=for-the-badge&logo=github&logoColor=white" width="100%" alt="StockFlow Repo"/>
-        </a>
-      </div>
-      <p align="justify">
-        Sistema integral de gestión de stock, inventarios, compras y ventas en tiempo real para múltiples sedes. Diseñado con arquitectura cliente-servidor robusta y panel de métricas operativas.
-      </p>
-      <div align="center">
-        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white"/>
-        <img src="https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white"/>
-      </div>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= GITHUB STATS & METRICS ================= -->
-### 📊 Estadísticas & Métricas de GitHub
-
-<div align="center">
-
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=JesusCaRu&theme=tokyonight" alt="GitHub Profile Details"/>
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=JesusCaRu&theme=tokyonight" alt="Repos Per Language"/>
-
-  <br/><br/>
-
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=JesusCaRu&theme=tokyonight" alt="GitHub Stats"/>
-  <img height="185em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=JesusCaRu&theme=tokyonight" alt="Most Commit Language"/>
-
-  <br/><br/>
-
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=JesusCaRu&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=58A6FF&line=58A6FF&point=FF7B72" width="98%" alt="Activity Graph" />
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= 3D CONTRIBUTIONS GRAPH ================= -->
-### 🌐 Gráfico de Contribuciones 3D
-
-<div align="center">
-
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= PHILOSOPHY & EXPLORE ================= -->
-### 💬 Filosofía de Desarrollo
-
-<div align="center">
-
-> *"La simplicidad y el orden son las claves de la fiabilidad. Crear software es combinar ingeniería sólida, código limpio y experiencias que deleiten al usuario final."*
-
-<br/>
-
-<a href="https://github.com/JesusCaRu?tab=repositories&sort=stargazers">
-  <img src="https://img.shields.io/badge/Explorar_Mis_Repositorios-⭐_Ver_Código-58A6FF?style=for-the-badge&logo=github&logoColor=white" alt="Explorar Repositorios"/>
-</a>
-
-</div>
-
-<br/>
-
----
-
-<!-- ================= CONNECT & FOOTER ================= -->
-### 📬 Conecta Conmigo
-
-<div align="center">
-
-¿Tienes un proyecto en mente, una oportunidad profesional o quieres intercambiar ideas sobre desarrollo? **¡Escríbeme!**
-
-<br/>
-
-<a href="https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-Jesús_Canicio-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:jesuscanicio33@gmail.com">
-  <img src="https://img.shields.io/badge/Email-jesuscanicio33@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-</a>
-&nbsp;
-<a href="https://github.com/JesusCaRu">
-  <img src="https://img.shields.io/badge/GitHub-JesusCaRu-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-</a>
-
-<br/><br/>
-
-<!-- ================= FOOTER BANNER ================= -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,10,25,30&height=120&section=footer" width="100%" alt="Footer Wave"/>
-
-<br/>
-
-<p align="center">
-  <i>⭐ Si te ha gustado mi perfil o mis proyectos, ¡no olvides dejar una estrella en mis repositorios!</i>
-</p>
-
-<br/>
-
-<a href="#top">
-  <img src="https://img.shields.io/badge/Volver_Arriba-⬆️-58A6FF?style=flat-square&logoColor=white" alt="Volver arriba"/>
-</a>
-
-</div>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/header-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/header-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+  <img src="assets/header-light.svg" width="100%" alt="Jesús Canicio Ruiz — Desarrollador Full Stack. Interfaces claras. Sistemas sólidos.">
+</picture>
+
+<br>
+
+**Desarrollo aplicaciones web de principio a fin: interfaz, lógica de negocio y datos.**
+
+Soy Jesús, desarrollador Full Stack en Alicante, España. Trabajo con **React, Laravel y Python**, y también desarrollo APIs con **Java y Spring Boot**. Me interesa que una aplicación sea tan fácil de usar como de mantener.
+
+Actualmente, en **Ángulo Tres**, combino desarrollo web y comercio electrónico con plugins PHP, herramientas internas y automatización. Estoy abierto a nuevas oportunidades para seguir creciendo en un equipo Full Stack.
+
+**[Ver portfolio](https://porfolio-omega-puce.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/)** · **[Contactar por email](mailto:jesuscanicio33@gmail.com)**
+
+## Proyectos seleccionados
+
+### [StockFlow](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario)
+
+Gestión de inventario, compras, ventas y transferencias entre sedes. Una aplicación completa para conectar las operaciones del negocio con su interfaz y su API.
+
+**React · Laravel · MySQL · Tailwind CSS**<br>
+Roles y permisos, movimientos de stock y paneles por perfil de usuario.
+
+### [ATS Resume Optimizer](https://github.com/JesusCaRu/ats-resume-optimizer-ai)
+
+Análisis de currículums frente a ofertas de empleo, con puntuación de compatibilidad y sugerencias de mejora. Combina una interfaz web con procesamiento de documentos y análisis de texto.
+
+**React · FastAPI · Python · Docker**<br>
+Extracción de contenido, comparación con TF-IDF e integración de IA generativa.
+
+### [Resource Booking API](https://github.com/JesusCaRu/resource-booking-concurrency-api)
+
+API de reservas de recursos que aborda un problema concreto: evitar reservas incompatibles cuando llegan varias solicitudes al mismo tiempo.
+
+**Java · Spring Boot · PostgreSQL · Docker**<br>
+Control de concurrencia optimista, autenticación JWT y documentación OpenAPI.
+
+### [TikTok Wrapped](https://github.com/JesusCaRu/Tiktok-Wrapper)
+
+Una forma visual de explorar tu historial de TikTok: historias, hábitos de uso y tarjetas para compartir. El archivo de datos se procesa en el navegador.
+
+**React · Vite · Tailwind CSS · Web Audio API**<br>
+Visualización de datos, exportación a PNG y una demo para probar sin subir archivos.
+
+**[Explorar todos los repositorios](https://github.com/JesusCaRu?tab=repositories)**
+
+## Con qué trabajo
+
+- **Interfaces:** React, TypeScript, JavaScript, HTML, CSS y Tailwind CSS.
+- **Backend:** PHP y Laravel, Python y FastAPI, Java y Spring Boot.
+- **Datos y entrega:** MySQL, PostgreSQL, MongoDB, Docker, Git y GitHub Actions.
+- **Web y automatización:** WordPress, Bricks, plugins PHP y n8n.
+
+Mi formación une **Desarrollo de Aplicaciones Web**, **Sistemas Microinformáticos y Redes** y una **especialización en Python**. Esa base me ayuda a conectar la experiencia de usuario con lo que ocurre en el servidor.
+
+## Hablemos
+
+Si buscas un desarrollador que pueda trabajar desde la interfaz hasta el backend, puedes ver mi experiencia en el **[portfolio](https://porfolio-omega-puce.vercel.app/)** o escribirme a **[jesuscanicio33@gmail.com](mailto:jesuscanicio33@gmail.com)**.
+
+<details>
+  <summary>Ver actividad de GitHub en 3D</summary>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+    <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Calendario tridimensional de contribuciones de JesusCaRu en GitHub, generado periódicamente con GitHub Actions.">
+  </picture>
+  <p><a href="https://github.com/JesusCaRu/JesusCaRu/actions/workflows/profile-3d.yml">Ver la última actualización</a></p>
+</details>

@@ -1,0 +1,13 @@
+{
+  "name": "jesuscaru-profile",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:assets": "node scripts/build-assets.mjs",
+    "check": "node scripts/check-profile.mjs"
+  },
+  "devDependencies": {
+    "@fontsource/manrope": "5.3.0",
+    "opentype.js": "2.0.0"
+  }
+}
