@@ -1,15 +1,15 @@
 # Mantenimiento del perfil
 
-El perfil está en `README.md`. Las cabeceras son SVG locales con cuatro variantes: claro, oscuro, móvil claro y móvil oscuro. El elemento `<picture>` elige la variante según el ancho y las preferencias de color del visitante.
+El perfil está en `README.md`. La cabecera y el atlas de tecnologías tienen variantes claras, oscuras y móviles. Cada proyecto tiene portadas propias de escritorio y móvil. El elemento `<picture>` elige cada composición según el ancho y las preferencias de color del visitante.
 
 ## Editar la cabecera
 
 1. Instalar Node.js 24 y ejecutar `npm ci`.
-2. Editar los textos o colores de `scripts/build-assets.mjs`.
+2. Editar `scripts/build-assets.mjs` para la cabecera o `scripts/build-graphic-assets.mjs` para las portadas, el stack y los enlaces gráficos.
 3. Ejecutar `npm run build:assets` y `npm run check`.
 4. Subir el script y los SVG generados juntos.
 
-La tipografía Manrope se transforma en trazados SVG. El navegador no necesita descargar fuentes. Su licencia está en `assets/Manrope-OFL.txt`. No hay servicios de estadísticas ni generadores de banners en la ruta crítica del perfil.
+La tipografía Manrope se transforma en trazados SVG. El navegador no necesita descargar fuentes. Su licencia está en `assets/Manrope-OFL.txt`; los iconos proceden de Simple Icons y se incluye su licencia. Las capturas en `assets/screenshots/` proceden de los repositorios públicos del autor y llevan metadatos de origen. Se incrustan en las portadas para que el SVG sea autosuficiente. No hay servicios de estadísticas ni generadores de banners en la ruta crítica del perfil.
 
 ## Proyectos y contacto
 

@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import opentype from 'opentype.js';
+import { buildGraphics } from './build-graphic-assets.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const fontRoot = path.join(root, 'node_modules/@fontsource/manrope');
@@ -50,10 +51,10 @@ for (const dark of [true, false]) {
       content += lettering('Interfaces claras. Sistemas sólidos.', left, 382, 28, ink, 600);
       content += `<path d="M869 80H847V351H869M1196 80H1218V351H1196" fill="none" stroke="${accent}" stroke-width="3"/>`;
       content += `<path d="M1032 143V292" fill="none" stroke="${accent}" stroke-width="3"/>`;
-      for (const [y, label] of [[92, 'Interfaz'], [185, 'API'], [278, 'Datos']]) {
+      for (const [y, label, color] of [[92, 'Interfaz', '#8bb9ff'], [185, 'API', '#c1f17e'], [278, 'Datos', '#d6b6ff']]) {
         content += `<rect x="883" y="${y}" width="299" height="60" fill="${panel}"/>`;
         content += lettering(label, 911, y + 40, 26, ink, 600);
-        content += `<circle cx="1154" cy="${y + 30}" r="5" fill="${accent}"/>`;
+        content += `<circle cx="1154" cy="${y + 30}" r="12" fill="${dark ? color : accent}"/>`;
       }
       content += lettering('Una visión de conjunto.', 883, 385, 22, muted, 400);
     }
@@ -63,3 +64,5 @@ for (const dark of [true, false]) {
     console.log(`Built assets/${name}`);
   }
 }
+
+buildGraphics({ lettering, root, out });

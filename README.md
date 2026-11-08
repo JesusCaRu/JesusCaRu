@@ -5,67 +5,95 @@
   <img src="assets/header-light.svg" width="100%" alt="Jesús Canicio Ruiz — Desarrollador Full Stack. Interfaces claras. Sistemas sólidos.">
 </picture>
 
-<br>
+<p align="center">
+  <a href="https://porfolio-omega-puce.vercel.app/"><img src="assets/link-portfolio.svg" width="190" alt="Ver mi portfolio"></a>
+  <a href="https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/"><img src="assets/link-linkedin.svg" width="190" alt="Visitar mi perfil de LinkedIn"></a>
+  <a href="mailto:jesuscanicio33@gmail.com"><img src="assets/link-email.svg" width="190" alt="Contactar por email"></a>
+</p>
 
-**Desarrollo aplicaciones web de principio a fin: interfaz, lógica de negocio y datos.**
-
-Soy Jesús, desarrollador Full Stack en Alicante, España. Trabajo con **React, Laravel y Python**, y también desarrollo APIs con **Java y Spring Boot**. Me interesa que una aplicación sea tan fácil de usar como de mantener.
-
-Actualmente, en **Ángulo Tres**, combino desarrollo web y comercio electrónico con plugins PHP, herramientas internas y automatización. Estoy abierto a nuevas oportunidades para seguir creciendo en un equipo Full Stack.
-
-**[Ver portfolio](https://porfolio-omega-puce.vercel.app/)** · **[LinkedIn](https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/)** · **[Contactar por email](mailto:jesuscanicio33@gmail.com)**
+Desarrollador **Full Stack en Alicante**, actualmente en **Ángulo Tres**. Conecto interfaces, APIs y datos con React, Laravel, Python y Java. **Abierto a nuevas oportunidades en un equipo Full Stack.**
 
 ## Proyectos seleccionados
 
-### [StockFlow](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario)
+<a href="https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/project-stockflow-mobile.svg">
+    <img src="assets/project-stockflow.svg" width="100%" alt="StockFlow: gestión de inventario, compras, ventas y transferencias entre sedes. React, Laravel y MySQL. Captura del dashboard con datos de demostración.">
+  </picture>
+</a>
 
-Gestión de inventario, compras, ventas y transferencias entre sedes. Una aplicación completa para conectar las operaciones del negocio con su interfaz y su API.
+[Ver código de StockFlow](https://github.com/JesusCaRu/StockFlow_Gestor_de_inventario) · Roles, permisos y movimientos de stock.
 
-**React · Laravel · MySQL · Tailwind CSS**<br>
-Roles y permisos, movimientos de stock y paneles por perfil de usuario.
+<a href="https://github.com/JesusCaRu/ats-resume-optimizer-ai">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/project-ats-mobile.svg">
+    <img src="assets/project-ats.svg" width="100%" alt="ATS Resume Optimizer: análisis de currículums y ofertas. Diagrama de extracción, comparación con TF-IDF y sugerencias de mejora. React, FastAPI y Python.">
+  </picture>
+</a>
 
-### [ATS Resume Optimizer](https://github.com/JesusCaRu/ats-resume-optimizer-ai)
+[Ver código del optimizador ATS](https://github.com/JesusCaRu/ats-resume-optimizer-ai) · Procesamiento de documentos e integración de IA generativa.
 
-Análisis de currículums frente a ofertas de empleo, con puntuación de compatibilidad y sugerencias de mejora. Combina una interfaz web con procesamiento de documentos y análisis de texto.
+<a href="https://github.com/JesusCaRu/resource-booking-concurrency-api">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/project-booking-mobile.svg">
+    <img src="assets/project-booking.svg" width="100%" alt="Resource Booking API: reservas con control de concurrencia optimista, JWT y OpenAPI. Diagrama de Java, Spring Boot y PostgreSQL.">
+  </picture>
+</a>
 
-**React · FastAPI · Python · Docker**<br>
-Extracción de contenido, comparación con TF-IDF e integración de IA generativa.
+[Ver código de la API de reservas](https://github.com/JesusCaRu/resource-booking-concurrency-api) · Evitar reservas incompatibles ante solicitudes simultáneas.
 
-### [Resource Booking API](https://github.com/JesusCaRu/resource-booking-concurrency-api)
+<a href="https://github.com/JesusCaRu/Tiktok-Wrapper">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/project-tiktok-mobile.svg">
+    <img src="assets/project-tiktok.svg" width="100%" alt="TikTok Wrapped: historias, analítica de hábitos y tarjetas para compartir. React, Vite y Web Audio. Captura del dashboard con datos de demostración. Los datos se procesan en el navegador.">
+  </picture>
+</a>
 
-API de reservas de recursos que aborda un problema concreto: evitar reservas incompatibles cuando llegan varias solicitudes al mismo tiempo.
-
-**Java · Spring Boot · PostgreSQL · Docker**<br>
-Control de concurrencia optimista, autenticación JWT y documentación OpenAPI.
-
-### [TikTok Wrapped](https://github.com/JesusCaRu/Tiktok-Wrapper)
-
-Una forma visual de explorar tu historial de TikTok: historias, hábitos de uso y tarjetas para compartir. El archivo de datos se procesa en el navegador.
-
-**React · Vite · Tailwind CSS · Web Audio API**<br>
-Visualización de datos, exportación a PNG y una demo para probar sin subir archivos.
+[Ver código de TikTok Wrapped](https://github.com/JesusCaRu/Tiktok-Wrapper) · [Probar la demo](https://tiktok-wrapper.vercel.app/)
 
 **[Explorar todos los repositorios](https://github.com/JesusCaRu?tab=repositories)**
 
 ## Con qué trabajo
 
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/stack-dark-mobile.svg">
+  <source media="(max-width: 600px)" srcset="assets/stack-light-mobile.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" width="100%" alt="Frontend: React, TypeScript, JavaScript y Tailwind. Backend: Laravel, PHP, Python y Spring Boot. Datos y entrega: MySQL, PostgreSQL, Docker y Git. Web y automatización: WordPress, n8n, FastAPI y Linux.">
+</picture>
+
+<details>
+  <summary>Experiencia, formación y tecnologías en texto</summary>
+
+Actualmente en **Ángulo Tres**, combino desarrollo web y comercio electrónico con plugins PHP, herramientas internas y automatización.
+
 - **Interfaces:** React, TypeScript, JavaScript, HTML, CSS y Tailwind CSS.
 - **Backend:** PHP y Laravel, Python y FastAPI, Java y Spring Boot.
 - **Datos y entrega:** MySQL, PostgreSQL, MongoDB, Docker, Git y GitHub Actions.
-- **Web y automatización:** WordPress, Bricks, plugins PHP y n8n.
+- **Web y automatización:** WordPress, Bricks, plugins PHP, n8n y Linux.
 
-Mi formación une **Desarrollo de Aplicaciones Web**, **Sistemas Microinformáticos y Redes** y una **especialización en Python**. Esa base me ayuda a conectar la experiencia de usuario con lo que ocurre en el servidor.
+Mi formación une **Desarrollo de Aplicaciones Web**, **Sistemas Microinformáticos y Redes** y una **especialización en Python**.
+
+[Ver mi experiencia completa en el portfolio](https://porfolio-omega-puce.vercel.app/).
+
+</details>
+
+## Actividad en GitHub
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+  <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Calendario tridimensional de contribuciones de JesusCaRu en GitHub, generado periódicamente con GitHub Actions.">
+</picture>
+
+[Ver la última actualización del gráfico](https://github.com/JesusCaRu/JesusCaRu/actions/workflows/profile-3d.yml)
 
 ## Hablemos
 
-Si buscas un desarrollador que pueda trabajar desde la interfaz hasta el backend, puedes ver mi experiencia en el **[portfolio](https://porfolio-omega-puce.vercel.app/)** o escribirme a **[jesuscanicio33@gmail.com](mailto:jesuscanicio33@gmail.com)**.
-
-<details>
-  <summary>Ver actividad de GitHub en 3D</summary>
-  <br>
+<a href="mailto:jesuscanicio33@gmail.com">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
-    <img src="profile-3d-contrib/profile-green.svg" width="100%" alt="Calendario tridimensional de contribuciones de JesusCaRu en GitHub, generado periódicamente con GitHub Actions.">
+    <source media="(max-width: 600px)" srcset="assets/contact-mobile.svg">
+    <img src="assets/contact.svg" width="100%" alt="Construyamos lo siguiente. Hablemos de tu equipo. Escribe a Jesús Canicio Ruiz.">
   </picture>
-  <p><a href="https://github.com/JesusCaRu/JesusCaRu/actions/workflows/profile-3d.yml">Ver la última actualización</a></p>
-</details>
+</a>
+
+**[jesuscanicio33@gmail.com](mailto:jesuscanicio33@gmail.com)** · [LinkedIn](https://www.linkedin.com/in/jes%C3%BAs-canicio-ruiz-184374262/) · [Portfolio](https://porfolio-omega-puce.vercel.app/)
